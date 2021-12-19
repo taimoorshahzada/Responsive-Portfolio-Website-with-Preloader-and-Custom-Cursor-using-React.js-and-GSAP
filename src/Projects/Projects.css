@@ -1,0 +1,117 @@
+
+.my-projects{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 50vh;
+    border-bottom: 1px dashed black;
+}
+.my-projects h1{
+    font-family: 'Ogg';
+    font-size: 220px;
+    font-weight: lighter;
+    line-height: 80%;
+    text-transform: capitalize;
+}
+.project-page a {
+    color: #642420;
+    text-decoration: none;
+}
+.project-page-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+.project-page-items{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.project-page-item{
+    padding: 100px;
+    width: 400px;
+    transition: transform .6s cubic-bezier(.16,1,.3,1);
+}
+.project-page-item:hover{
+    transform: scale(1.05);
+}
+.project-page-item-number p{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+.project-page-item-header{
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.project-page-item-header h1{
+    font-size: 15px;
+    font-weight: bold;
+    width: 50%;
+    font-family: 'Inter';
+    text-transform: uppercase;
+}
+.project-page-item-header p{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Inter';
+    width: 50%;
+    text-transform: uppercase;
+}
+.project-page-item-image{
+    width: 100%;
+    height: 400px;
+    background-color: #642420;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.project-page-item-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 10px 0px;
+}
+.project-page-item-footer p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter';
+    text-transform: uppercase;
+}
+.project-page-item-footer img{
+    width: 12px;
+    margin-right: 5px;
+    transform: rotate(270deg);
+}
+.project-page-item-image1{
+ background-image: url(../Assets/project1.jpg);   
+}
+.project-page-item-image2{
+ background-image: url(../Assets/project2.jpg);   
+}
+.project-page-item-image3{
+ background-image: url(../Assets/project3.jpg);   
+}
+.project-page-item-image4{
+ background-image: url(../Assets/project4.jpg);   
+}
+.project-page-item-image5{
+ background-image: url(../Assets/project5.jpg);   
+}
+.project-page-item-image6{
+ background-image: url(../Assets/project6.jpg);   
+}

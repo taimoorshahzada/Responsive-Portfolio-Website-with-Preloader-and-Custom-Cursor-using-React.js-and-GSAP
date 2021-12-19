@@ -1,0 +1,36 @@
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 250px;
+    flex-direction: column;
+}
+.get-in-touch h1 {
+    font-size: 200px;
+    font-weight: lighter;
+    font-family: 'Ogg';
+}
+.get-in-touch p{
+    font-size: 20px;
+    margin-top: -150px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+.get-in-touch img{
+    width: 500px;
+    margin-top: -400px;
+    opacity: .1;
+    animation: animate-rotate 30s linear infinite;
+
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

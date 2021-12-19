@@ -1,0 +1,33 @@
+.contact-page-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 150px;
+    height: fit-content;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0% 10%;
+}
+.contact-page-container h1{
+    word-spacing: 10px;
+    letter-spacing: 80%;
+    font-size: 200px;
+
+    font-weight: lighter;
+    font-family: 'Ogg';
+}
+
+.contact-page-container h1 img{
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    animation: animate-rotate 10s infinite linear;
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

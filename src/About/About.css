@@ -1,0 +1,112 @@
+.container-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10%;
+    margin-top: 5vh;
+    display: flex;
+    font-size: 200px;
+    font-family: 'Ogg';
+    font-weight: lighter;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: -10px;
+}
+.container-text p {
+    overflow: hidden;
+}
+.container-inner-text2{
+    margin-top: -520px;
+}
+.container-quote{
+    position: absolute;
+    top: 70vh;
+    right: 100px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #642420;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.container-image{
+    position: absolute;
+    top: 95vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    background: url(../Assets/image.jpeg) 50% 50% no-repeat;
+    background-size: cover;
+    filter: grayscale(1);
+    height: 110vh;
+    z-index: -1;
+}
+.container-quote2{
+    position: absolute;
+    top: 160vh;
+    left: 10%;
+}
+.about-container2{
+    position: absolute;
+    top: 190vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 250vh;
+    width: 100%;
+    flex-direction: column;
+}
+.about-container2-heading,
+.about-container2-heading2,
+.about-container2-heading2 p{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.about-container2-heading p,
+.about-container2-heading2 p{
+    font-size: 200px;
+    font-family: 'Ogg';
+    line-height: 0%;
+    font-weight: lighter;
+    letter-spacing: -8px;
+
+}
+.about-container2-heading2 p{
+    text-decoration: line-through 5px #806868;
+}
+.about-container2-p p{
+    font-size: 18px;
+    font-family: 'Inter';
+    margin-bottom: 80px;
+    color: #642420;
+    word-spacing: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.about-container2-p-right{
+    text-align: right;
+}
+.about-container-flower{
+    position: absolute;
+    top: 80vh;
+    left: 100px;
+    animation: animate-rotate 10s infinite linear;
+
+}
+.about-container-flower img{
+    width: 100px;
+}
+.about-footer{
+    margin-top: 500vh;
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

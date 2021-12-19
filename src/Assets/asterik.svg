@@ -1,0 +1,3 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="burger-menu__archive-icon" width="20"  height="21" ><defs><symbol id="sprite-icon-asterisk-small" viewBox="0 0 20 21"><title>icon-asterisk-small</title><path d="M19.08 6.54l-6.56 3.8 6.56 3.8-1.48 2.56-6.56-3.8v7.6H8.08v-7.6l-6.6 3.8L0 14.14l6.6-3.8L0 6.54l1.48-2.6 6.6 3.84V.14h2.96v7.64l6.56-3.84 1.48 2.6z"></path></symbol></defs>
+        <use href="#sprite-icon-asterisk-small" xlink:href="#sprite-icon-asterisk-small"></use>
+      </svg>
