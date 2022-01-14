@@ -34,3 +34,38 @@
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 1300px) {
+    .get-in-touch h1{
+        font-size: 70px;
+    }
+    .get-in-touch img{
+        width: 200px;
+        margin-top: -100px;
+        opacity: .1;
+    }
+    .get-in-touch p{
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-family: 'Inter';
+    }
+
+}
+@media (max-width: 500px) {
+    .get-in-touch h1 {
+        font-size: 50px;
+    }
+    .get-in-touch p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .get-in-touch img{
+        margin-top: -90px;
+    }
+    .get-in-touch{
+        height: 400px;
+    }
+}

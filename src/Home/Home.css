@@ -217,3 +217,80 @@
 .h1-project img{
     width: 90px;
 }
+
+
+@media (max-width: 1200px) {
+    .txt-line p{
+        font-size: 100px;
+        letter-spacing: -5px;
+        font-weight: 500;
+    }
+    .line-bottom{
+        margin-top: -200px;
+    }
+    .flower-svg{
+        display: none;
+    }
+    .short-about h1{
+        font-size: 100px;
+        margin: 0;
+        line-height: 88%;
+    }
+    .short-about p{
+        margin-top: 5px;
+        font-weight: 300;
+    }
+    .sub-main-p-short-about {
+        margin-top: 10px;
+    }
+    .reel-item{
+        font-size: 100px;
+    }
+    .project-and-work h1 .h1-project{
+        font-size: 50px;
+    }
+    .project-and-work h1 .h1-project img{
+        width: 30px;
+    }
+    .project-and-work p{
+        margin-top: -30px;
+    }
+    .skill-set-box{
+        margin: 10px 5px;
+    }
+}
+@media (max-width: 600px) {
+    .short-about p{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .txt-line p{
+        font-size: 60px;
+        letter-spacing: -2px;
+        font-weight: 500;
+    }
+    .line-bottom{
+        margin-top: -120px;
+    }
+    
+    .left-side-quote{
+        margin-left: 10vw;
+    }
+    .left-side-quote p{
+        font-size: 12px;
+    }
+    .container1{
+        padding: 0px 50px;
+    }
+    .short-about h1{
+        font-size: 60px;
+        margin: 0;
+        line-height: 88%;
+    }
+
+    .reel-item{
+        font-size: 60px;
+    }
+}

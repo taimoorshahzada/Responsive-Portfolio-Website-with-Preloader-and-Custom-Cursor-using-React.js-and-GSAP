@@ -115,3 +115,28 @@
 .project-page-item-image6{
  background-image: url(../Assets/project6.jpg);   
 }
+
+@media (max-width: 900px) {
+    .my-projects{
+        height: 40vh;
+    }
+    .my-projects h1{
+        font-size: 120px;
+    }
+    .project-page-item{
+        padding: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .my-projects{
+        height: 30vh;
+        margin-top: 100px;
+    }
+    .my-projects h1{
+        font-size: 80px;
+    }
+
+    .project-page-item{
+        height: 300px;
+    }
+}
