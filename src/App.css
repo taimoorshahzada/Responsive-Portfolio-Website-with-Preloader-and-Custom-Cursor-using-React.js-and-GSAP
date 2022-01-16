@@ -25,3 +25,83 @@ body{
 ::-webkit-scrollbar{
   display: none;
 }
+
+.cursor-follower{
+  position: absolute;
+  background: url(Assets/Red_asterisk.svg) no-repeat 50% 50% ;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  animation: animate-rotate 10s infinite linear;
+  z-index: 1500;
+  user-select: none;
+  opacity: .8;
+  mix-blend-mode: multiply;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translate(35px, 35px);
+}
+@keyframes animate-rotate {
+  to{
+    transform: rotate(0deg);
+  }
+  from{
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .cursor-follower{
+    display: none;
+  }
+}
+
+
+.loader{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1200;
+  background-color: #e9dbd4;
+
+}
+.progress{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+}
+#percent{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 100px;
+  font-family: 'Ogg';
+}
+#bar{
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin-top: 20px;
+}
+#barc{
+  margin: 0;
+  padding: 0;
+  width: 1%;
+  padding: 1px 0px;
+  background-color: black;
+}
